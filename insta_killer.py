@@ -1,8 +1,9 @@
+from email import message
 import requests
 import json
 
 def print_banner():
-    banner = """"
+    banner = """
     ####################################################################################################################################
     #                                                                                                                                  #     
     #  B▄██████▄BBBBB▄████████BB▄█BB███▄▄▄▄BBBBBBB███BBBBBBBB▄████████B███BBBB█▄BBB▄████████BBBB▄█BBB▄█▄BBBB▄████████BBBB▄████████B    #
@@ -15,14 +16,15 @@ def print_banner():
     #  B▀██████▀BBB▄████████▀BB█▀BBBB▀█BBB█▀BBBBB▄████▀BBBBB███BBBBBBBB████████▀BB████████▀BBBB███BBB▀█▀BBB██████████BBB███BBBB███B    #
     #  BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB▀BBBBBBBBBBBBBBBBBBBBBBBB███BBBB███B    #
     #                                                                                                                                  #
-    #   osint + fucker                                                                                                                 #
-    #   created by kartik                                                                                                              #
-    #   follow on instagram :-                                                                                                         #
+    #   insta killer                                                                                                                   #
+    #   created by kartik   version 1.0                                                                                                #
+    #   follow on twitter :- https://twitter.com/Kartik7877das                                                                         #
     ####################################################################################################################################
    """
-   print(banner)
+
 
 print(print_banner)
+
 
 
 
@@ -38,7 +40,7 @@ header ={
         "Accept": "*/*",
         "Accept-Language": "en-US,en;q=0.5",
         "Accept-Encoding": "gzip, deflate",
-        "X-CSRFToken": "RIu9PHWxCiO1JyOtYkwWARDUa9WqfmHk",
+        "X-CSRFToken": "GS3zdGRCAXnHDoz3wBFZ9S4UY04M58we",
         "X-Instagram-AJAX": "8e9ff759d0a5",
         "X-IG-App-ID": "1217981644879628",
         "X-ASBD-ID": "198387",
@@ -85,7 +87,7 @@ url2 = f"https://i.instagram.com/api/v1/users/web_profile_info/?username={insta_
 
 response2 = requests.get(url2 ,headers=header2 )
 
-print("printing status code: ", response2.status_code)
+print("\nprinting status code: ", response2.status_code)
 
 info = response2.json()
 
@@ -100,8 +102,8 @@ privet = info['data']['user']['is_private']
 business_email = info['data']['user']['business_email']
 
 
-print(f"name :{name}")
-print(f"bio : {bio}")
+print(f"Name :{name}")
+print(f"Bio : {bio}")
 print(f"follower : {follower}")
 print(f"following : {following}")
 print(f"no. of post : {post}")
@@ -109,11 +111,6 @@ print(f"insta id : {id}")
 print(f"privet : {privet}")
 print(f"business_email : {business_email}")
 print(profile)
-
-
-
-
-
 
 
 
