@@ -16,7 +16,20 @@ HOWTO USE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 working
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+WHAT is the masked phone no and email
+
+so, it was nothing but 
+
+it will give you pobility of phone no. and email address which is very important during osint 
+
+like +91 ********80 or sh********06@gmail.com 
+
+now assume that your victim name is shruti and her birth of date is july(06)
+
+now by gussing you know her gmail that is may be shrutising06@gmail.com
 
 
 
