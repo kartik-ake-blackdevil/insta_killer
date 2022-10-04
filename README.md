@@ -2,7 +2,9 @@
 All in one  tool for Instagram OSINT. that do a lot of things in one tool. masked email or phone no.
 
 ================================================
-HOW to use 
+
+HOWTO USE
+
 =================================================
 
 ==> git clone https://github.com/kartik-ake-blackdevil/insta_killer
@@ -11,10 +13,10 @@ HOW to use
 
 ==> python3 insta_killer
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
-
-
+working
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 
