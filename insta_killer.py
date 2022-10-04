@@ -40,7 +40,7 @@ header ={
         "Accept": "*/*",
         "Accept-Language": "en-US,en;q=0.5",
         "Accept-Encoding": "gzip, deflate",
-        "X-CSRFToken": "GS3zdGRCAXnHDoz3wBFZ9S4UY04M58we",
+        "X-CSRFToken": "RIu9PHWxCiO1JyOtYkwWARDUa9WqfmHk",
         "X-Instagram-AJAX": "8e9ff759d0a5",
         "X-IG-App-ID": "1217981644879628",
         "X-ASBD-ID": "198387",
