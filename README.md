@@ -6,8 +6,10 @@ HOW to use
 =================================================
 
 ==> git clone https://github.com/kartik-ake-blackdevil/insta_killer
+
 ==> cd insta_killer
-==> python3 
+
+==> python3 insta_killer
 
 
 
