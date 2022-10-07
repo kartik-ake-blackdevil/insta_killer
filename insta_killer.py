@@ -21,12 +21,10 @@ def print_banner():
     #   follow on twitter :- https://twitter.com/Kartik7877das                                                                         #
     ####################################################################################################################################
    """
+print(banner)
 
 
-print(print_banner)
-
-
-
+print_banner()
 
 insta_id = input("please insta id : ")
 
