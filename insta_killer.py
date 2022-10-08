@@ -38,8 +38,8 @@ header ={
         "Accept": "*/*",
         "Accept-Language": "en-US,en;q=0.5",
         "Accept-Encoding": "gzip, deflate",
-        "X-CSRFToken": "RIu9PHWxCiO1JyOtYkwWARDUa9WqfmHk",
-        "X-Instagram-AJAX": "8e9ff759d0a5",
+        "X-CSRFToken": "dbFzDqE0tpc6eVHAA7dz7RFw9TqdXYav",
+        "X-Instagram-AJAX": "c9e803a8d542",
         "X-IG-App-ID": "1217981644879628",
         "X-ASBD-ID": "198387",
         "X-IG-WWW-Claim": "0",
@@ -49,7 +49,9 @@ header ={
         "Connection": "close",
         "Sec-Fetch-Dest": "empty",
         "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "same-origin"
+        "Sec-Fetch-Site": "same-origin",
+        "referer": "https://www.instagram.com/accounts/password/reset/",
+        "x-requested-with": "XMLHttpRequest"
  }
 
 response = requests.post(url,headers=header, data=Data )
