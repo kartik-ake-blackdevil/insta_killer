@@ -21,7 +21,7 @@ def print_banner():
     #   follow on twitter :- https://twitter.com/Kartik7877das                                                                         #
     ####################################################################################################################################
    """
-print(banner)
+    print(banner)
 
 
 print_banner()
